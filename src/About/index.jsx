@@ -11,7 +11,7 @@ const About = ({ font }) => {
         <Text3D font={font} size={10} height={4}>
           About
         </Text3D>
-        <meshStandardMaterial attach="material" color="#fafafa" metalness={1} />
+        <meshStandardMaterial attach="material" color="black" metalness={1} />
       </mesh>
       <Education font={font} />
       <Links font={font} />

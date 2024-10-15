@@ -18,19 +18,21 @@ const App = () => {
                 fontSize: "45px",
                 fontWeight: "500",
                 marginBottom: "50px",
+                textAlign:"center",
               }}
             >
-              Hello, I'm <span>Vinay Matta.</span>
+              Hello, I'm <span>Rashad Malik T K</span>
             </h1>
-            <h2
+            <p
               style={{
-                fontSize: "40px",
+                fontSize: "30px",
                 fontWeight: "500",
                 marginBottom: "50px",
+                textAlign:"center",
               }}
             >
-              I'm a full-stack Web Developer.
-            </h2>
+              "Ambitious and creative front-end developer with a focus on delivering intuitive, dynamic, and visually appealing web experiences.
+            </p>
           </div>
           {window.innerWidth > 767 ? (
             <div>
@@ -105,13 +107,14 @@ const App = () => {
         dataInterpolation={(p) => `Loading ${Math.round(p)}%`}
         initialState={(active) => active}
         dataStyles={{
-          color: "#fafafa",
+          color: "#ffffff",
           fontSize: "25px",
           fontFamily: "Raleway",
           fontWeight: "500",
         }}
       />
     </div>
+    
   );
 };
 

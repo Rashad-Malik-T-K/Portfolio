@@ -115,7 +115,7 @@ const Boards = ({
       <Board
         x={-120}
         z={-10}
-        text="Social Freaks"
+        text="TRAVEL AND TOURISM"
         font={font}
         model={sfModel}
         modelLeft={mfModel}
@@ -124,32 +124,25 @@ const Boards = ({
       <Board
         x={-60}
         z={-40}
-        text="IIC DCRUST"
+        text="TO-DO-LIST"
         rotation={[0, Math.PI, 0]}
         font={font}
         model={iicModel}
         modelRight={eventsModel}
         modelLeft={loginModel}
       />
-      <Board x={-120} z={-70} text="Chat App" font={font} model={chatModel} />
+      <Board x={-120} z={-70} text="AIR GESTURE MOUSE" font={font} model={chatModel} />
       <Board
         x={-60}
         z={-140}
-        text="Museum Counsel"
+        text="CELL PHONE DETECTOR"
         rotation={[0, Math.PI, 0]}
         font={font}
         model={mcModel}
         modelLeft={mcLeft}
         modelRight={mcRight}
       />
-      <Board
-        x={-120}
-        z={-140}
-        text="Tic Tac Toe"
-        font={font}
-        model={tttModel}
-        modelLeft={tttLeft}
-      />
+      
     </>
   );
 };

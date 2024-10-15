@@ -15,21 +15,15 @@ const Links = ({ font }) => {
         <meshBasicMaterial attach="material" color="#fafafa" metalness={1} />
       </mesh>
       <group>
-        <mesh rotation={text_angle} position={[x, 0.1, z]}>
-          <Text3D font={font} size={1} height={0.1}>
-            Hackerrank
-          </Text3D>
-          <meshBasicMaterial attach="material" color="#fafafa" metalness={1} />
-        </mesh>
         <mesh rotation={text_angle} position={[x, 0.1, z - z_sub]}>
           <Text3D font={font} size={1} height={0.1}>
-            Codechef
+            instagram
           </Text3D>
           <meshBasicMaterial attach="material" color="#fafafa" metalness={1} />
         </mesh>
         <mesh rotation={text_angle} position={[x, 0.1, z - z_sub * 2]}>
           <Text3D font={font} size={1} height={0.1}>
-            Leetcode
+            Travel website 
           </Text3D>
           <meshBasicMaterial attach="material" color="#fafafa" metalness={1} />
         </mesh>

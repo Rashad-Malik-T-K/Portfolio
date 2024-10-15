@@ -18,8 +18,8 @@ const Contact = () => {
     setDisabled(true);
     axios({
       method: "POST",
-      url: "https://vinay-matta-server.herokuapp.com/send",
-      // url: "http://localhost:3001/send",
+      //url: "https://vinay-matta-server.herokuapp.com/send",
+      url: "http://localhost:3000/send",
       headers: { "Content-Type": "application/json" },
       data: { name: name, email: email, subject: subject, message: message },
     }).then((response) => {
